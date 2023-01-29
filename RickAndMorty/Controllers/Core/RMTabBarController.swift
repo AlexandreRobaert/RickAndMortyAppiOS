@@ -22,10 +22,10 @@ final class RMTabBarController: UITabBarController {
                            UINavigationController(rootViewController: RMLocationViewController()),
                            UINavigationController(rootViewController: RMSettingsViewController())]
         
-        let itemsBar = [UITabBarItem(title: "Character", image: UIImage(systemName: "person.crop.square"), tag: 1),
-                        UITabBarItem(title: "Episode", image: UIImage(systemName: "film"), tag: 2),
-                        UITabBarItem(title: "Location", image: UIImage(systemName: "globe.americas.fill"), tag: 3),
-                        UITabBarItem(title: "Settings", image: UIImage(systemName: "gear.circle"), tag: 4)]
+        let itemsBar = [UITabBarItem(title: Constants.characterTitle, image: UIImage(systemName: "person.crop.square"), tag: 1),
+                        UITabBarItem(title: Constants.episodeTitle, image: UIImage(systemName: "film"), tag: 2),
+                        UITabBarItem(title: Constants.locationTitle, image: UIImage(systemName: "globe.americas.fill"), tag: 3),
+                        UITabBarItem(title: Constants.settingsTitle, image: UIImage(systemName: "gear.circle"), tag: 4)]
         
         for (index, nav) in navigations.enumerated() {
             nav.navigationBar.prefersLargeTitles = true

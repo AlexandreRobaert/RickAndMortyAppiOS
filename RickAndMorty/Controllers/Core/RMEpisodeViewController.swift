@@ -15,7 +15,7 @@ final class RMEpisodeViewController: UIViewController {
     }
     
     private func setupView() {
-        title = "Episodes"
+        title = Constants.episodeTitle
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .automatic
     }

@@ -5,3 +5,8 @@
   Created by Alexandre Robaert on 22/01/23.
   
 */
+
+"rm.tabbar.character" = "Character";
+"rm.tabbar.episode" = "Episode";
+"rm.tabbar.location" = "Location";
+"rm.tabbar.settings" = "Settings";

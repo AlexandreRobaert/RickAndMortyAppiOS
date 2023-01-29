@@ -15,7 +15,7 @@ final class RMCharacterViewController: UIViewController {
     }
 
     private func setupView() {
-        title = "Characters"
+        title = Constants.characterTitle
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .automatic
     }
