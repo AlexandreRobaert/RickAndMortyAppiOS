@@ -15,7 +15,7 @@ final class RMLocationViewController: UIViewController {
     }
 
     private func setupView() {
-        title = "Location"
+        title = Constants.locationTitle
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .automatic
     }

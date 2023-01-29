@@ -15,7 +15,7 @@ final class RMSettingsViewController: UIViewController {
     }
     
     private func setupView() {
-        title = "Settings"
+        title = Constants.settingsTitle
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .automatic
     }
